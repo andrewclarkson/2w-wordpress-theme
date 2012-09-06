@@ -1,0 +1,576 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aligncenter{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+div {
+	margin:0;
+	padding:0
+}
+/* buttons */
+a.more-info:link, a.more-info:visited{
+	text-align:center;
+	background:#9A9B9B;
+	font:16px Calibri, Arial, "Trebuchet MS", Tahoma;
+	letter-spacing:-0.01em;
+	color:#FFF;
+	text-decoration:none;
+	padding:0px 8px 2px 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	border:0.15em #FFF solid;
+}
+a.more-info:hover{
+	background:#000;
+	color:#FFF;
+	text-decoration:none;
+}
+
+a.more-info-black:link, a.more-info-black:visited{
+	text-align:center;
+	background:#000;
+	font:16px Calibri, Arial, "Trebuchet MS", Tahoma;
+	letter-spacing:-0.01em;
+	color:#FFF;
+	text-decoration:none;
+	padding:0px 8px 2px 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	border:0.15em #FFF solid;
+}
+a.more-info-black:hover{
+	background:#9A9B9B;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* buttons */
+
+
+
+#static_wrapper #content_area {
+	background:#464646 url(../images/back_23.jpg) repeat-x;
+	padding-bottom:8px;
+}
+#static_wrapper #body_area {
+	background:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:972px;
+	display:table;
+}
+#static_wrapper #body_area #body_area1 {
+	padding:8px;
+	display:table;
+}
+
+#static_wrapper #body_area #himg-pharea1 {
+	height:372px;
+	margin-bottom:3px;
+	position:relative;
+}
+#static_wrapper #body_area #himg-pharea1 #left-img1{
+	background:url(../images/new-index_18.jpg) no-repeat;
+	width:285px;
+	height:372px;
+	padding-right:4px;
+	float:left;
+	font:bold 14px Tahoma, Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+#static_wrapper #body_area #himg-pharea1 #left-img1 ul{
+	list-style:none;
+	margin-left:0px;
+	padding-left:35px;
+	padding-top:240px;
+	margin-bottom:7px;
+}
+#static_wrapper #body_area #himg-pharea1 #left-img1 ul li{
+	padding-bottom:0px;
+	margin-bottom:0px;
+	line-height:18px;
+}
+
+#static_wrapper #body_area #himg-pharea1 #right-img1{
+	background:url(../images/new-index_21.jpg) repeat-x ;
+	border:#AEABAB 1px solid;
+	height:252px;
+	width:665px;
+	margin-bottom:4px;
+	float:left;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img1 #card-txt{
+	text-align:center;
+	height:252px;
+	width:315px;
+	float:left;
+	padding-top:20px;
+	font:bold 18px Arial, Helvetica, sans-serif;
+	letter-spacing:-0.05em;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img1 #card-txt p{
+	margin-top:7px;
+	padding-top:0px;
+	margin-bottom:0px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img1 #card-txt span{
+	font-size:13px;
+	line-height:18px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img1 #card-img{
+	float:left;
+	padding-top:2px;
+	font-size:12px;
+	line-height:20px;
+}
+
+#static_wrapper #body_area #himg-pharea1 #right-img2{
+	background:url(../images/new-index_32.jpg) repeat-x bottom;
+	border:#AEABAB 1px solid;
+	height:112px;
+	width:665px;
+	float:left;
+	position:relative;
+}
+
+#static_wrapper #body_area #himg-pharea1 #right-img2 #clearance-img{
+	width:121px;
+	float:left;
+	padding-top:10px;
+	padding-left:8px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2 #clearance-txt{
+	width:430px;
+	text-align:center;
+	float:left;
+	padding-top:10px;
+	font:bold 18px Arial, Helvetica, sans-serif;
+	letter-spacing:-0.05em;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2 #clearance-txt p{
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2 #clearance-txt p span{
+	font-size:13px;
+	line-height:24px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2 .clearance-button{
+	position:absolute;
+	top:80px;
+	right:13px;
+}
+
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov{
+	background:url(../images/new-index_32_nov.jpg) repeat-x bottom;
+	border:#AEABAB 1px solid;
+	height:112px;
+	width:665px;
+	float:left;
+	position:relative;
+}
+
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov #clearance-img{
+	width:121px;
+	float:left;
+	padding-top:10px;
+	padding-left:8px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov #clearance-txt{
+	width:430px;
+	text-align:center;
+	float:left;
+	padding-top:10px;
+	font:bold 18px Arial, Helvetica, sans-serif;
+	letter-spacing:-0.05em;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov #clearance-txt p{
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov #clearance-txt p span{
+	font-size:13px;
+	line-height:24px;
+}
+#static_wrapper #body_area #himg-pharea1 #right-img2-nov .clearance-button{
+	position:absolute;
+	top:80px;
+	right:13px;
+}
+
+
+
+#static_wrapper #body_area #home-eqp {
+	background:url(../images/new-index_43.jpg) repeat-x;
+	height:194px;
+	font:  16px Helvetica, Arial, sans-serif;
+	color:#FFF;
+	margin-bottom:3px;
+	position:relative;
+}
+#static_wrapper #body_area #home-eqp ul{
+	margin:0px;
+	padding:0px;
+}
+#static_wrapper #body_area #home-eqp ul li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:left;
+	width:159px;
+	text-align:center;
+	background:url(../images/new-index_59.jpg) no-repeat right center ;
+	height:194px;
+}
+#static_wrapper #body_area #home-eqp ul li.last{
+	background: none;
+}
+#static_wrapper #body_area #home-eqp ul li a{
+	background:none;
+	display:block;
+	height:194px;
+	width:159px;
+	text-align:center;
+	margin:0px 2px 0px 1px;
+	text-decoration:none;
+	color:#FFF;
+}
+#static_wrapper #body_area #home-eqp ul li a:hover{
+	background:url(../images/back_22.jpg) repeat-x;
+	text-decoration:none;
+	color:#FFF;
+}
+#static_wrapper #body_area #home-eqp ul li img{
+	padding:20px 19px 10px 19px ;
+	border:0px;
+	display:block;
+}
+
+
+#static_wrapper #body_area #himg-3col {
+	margin-bottom:3px;
+	position:relative;
+	height:300px;
+}
+#static_wrapper #body_area #himg-3col #b1col{
+	background:url(../images/new-index_69.jpg) no-repeat;
+	width:313px;
+	height:300px;
+	float:left;
+	margin-right:3px;
+}
+#static_wrapper #body_area #himg-3col #b1col .cardio-button{
+	padding:240px 0px 0px 210px;
+}
+
+#static_wrapper #body_area #himg-3col #b2col{
+	background:url(../images/new-index_71.jpg) no-repeat;
+	height:300px;
+	width:323px;
+	float:left;
+	margin-right:3px;
+}
+#static_wrapper #body_area #himg-3col #b2col .workout-button{
+	padding:240px 0px 0px 210px;
+}
+
+#static_wrapper #body_area #himg-3col #b3col{
+	background:url(../images/new-index_73.jpg) no-repeat;
+	height:300px;
+	width:314px;
+	float:left;
+}
+#static_wrapper #body_area #himg-3col #b3col .repair-button{
+	padding:240px 0px 0px 20px;
+}
+
+
+
+#static_wrapper #body_area #himg-bottom-sec {
+	position:relative;
+	background:#000000;
+	height:100px;
+	vertical-align:middle;
+}
+#static_wrapper #body_area #himg-bottom-sec #title-txt{
+	float:left;
+	width:360px;
+	font-family:Impact, Calibri, "Trebuchet MS";
+	font-size:35px;
+	color:#AA7C2C;
+	padding-top:28px;
+	padding-left:15px;
+}
+#static_wrapper #body_area #himg-bottom-sec #title-txt span{
+	font: bold 12px Tahoma, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	line-height:40px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize{
+	float:left;
+	margin-right:15px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .prize-txt{
+	float:left;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-top:5px;
+	margin-right:5px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .prize-txt h3{
+	color:#FFFFFF;
+	font: bold 1.25em Tahoma, Arial, Helvetica, sans-serif;
+	padding-bottom:5px;
+	margin-bottom:0px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .prize-img{
+	float:left;
+	vertical-align:middle;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .img1{
+	padding-top:13px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .img2{
+	padding-top:10px;
+}
+#static_wrapper #body_area #himg-bottom-sec .prize .img3{
+	padding-top:14px;
+}
+#static_wrapper #body_area #himg-bottom-sec .button-right-col{
+	float:left;
+	width:70px;
+	text-align:center;
+	padding-top:10px;
+}
+#static_wrapper #body_area #himg-bottom-sec .button-right-col img{
+padding-bottom:10px;
+}
+a.register-but:link, a.register-but:visited{
+	text-align:center;
+	background:#0b0b0b;
+	font:16px Calibri, Arial, "Trebuchet MS", Tahoma;
+	letter-spacing:-0.01em;
+	color:#FFF;
+	text-decoration:none;
+	padding:0px 8px 2px 8px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	border:0.15em #FFF solid;
+}
+a.register-but:hover{
+	background:#9A9B9B;
+	color:#FFF;
+	text-decoration:none;
+}
+
+a img {border: none; }
+
+/* =RedeemBar Script
+-------------------------------------------------------------- */
+
+element.style {
+top:0;
+}
+#redeembar {
+background:none repeat scroll 0 0 #da1c1e;
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:normal;
+height:42px;
+line-height:43px;
+margin:0;
+overflow:visible;
+padding:0;
+position:relative;
+text-align:center;
+width:100%;
+z-index:1000;
+}
+#redeembar a {
+color:#ffffff;
+text-decoration:underline;
+}
+#redeembar a:hover {
+color:#ffffff;
+text-decoration:none;
+}
+
+/* 3 Columns */
+
+#static_wrapper #footer h3 {
+	margin-bottom:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color:#7E7E7E;
+	text-decoration:none;
+}
+
+#static_wrapper #body_area #himg-3col h3{
+	font-size:14px;
+	font-family:Arial, sans-serif;
+	text-shadow:2px 1px 1px rgba(50, 50, 50, 0.2);
+	color:#EEE;
+	text-align:center
+}
+#static_wrapper #body_area #himg-3col h2{
+	font-size:20px;
+	text-align:center;
+	color:#EEE;
+	line-height:30px;
+	font-family:Arial, sans-serif;
+	text-shadow:2px 1px 1px rgba(50, 50, 50, 0.2)
+}
+
+#award_winning{
+	margin-top:15px;
+
+}
+#award_winning_baseline{
+	float:left;
+	font-size:16px;
+	text-align:left;
+	padding:20px;
+	margin-top:60px
+}
+#left_column p{
+	font-family:Arial, sans-serif;
+	text-shadow:2px 1px 1px rgba(50, 50, 50, 0.2);
+	color:#EEE;
+	line-height:16px;
+	margin-top:0px;
+	font-size:12px;
+	float:left;
+	text-align:left;
+	padding-left:20px;
+	position:absolute;
+	top:190px;
+	left:0px;
+}
+
+#left_column .left_hover{width:300px;height:313px;position:absolute;cursor:pointer}#left_column .left_hover:hover{background:url(http://www.2ndwindexercise.com/images/left_column_hover.png)}#left_column{background:url(http://www.2ndwindexercise.com/images/left_column_background.png);width:300px;height:313px;margin-right:3px;float:left;	display:block;}#middle_column ul {
+	float: right;
+	width:100px;
+	margin-right:12px;
+	margin-top:30px;
+	
+}
+
+#middle_column li {
+	font-family: Arial, sans-serif;
+	color:#eee;
+	text-shadow: 2px 1px 1px rgba(50, 50, 50, 0.2);
+	font-size: 12px;
+	text-align:left;
+	font-weight:bold;
+	line-height:30px;
+
+}
+
+
+#now_hiring  {
+	margin-top: -290px;
+	text-align:center;
+	
+}
+
+#now_hiring a {
+	color:#EEE;
+	text-decoration:none;
+	}
+
+#now_hiring_baseline a{
+	position:relative;
+	color:#EEE;
+	top:30px;
+	width:350px;
+	font-size: 14px;
+	clear: both;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+
+#middle_hover {
+	width:350px;
+	height:313px;
+	margin-top:0px;
+	cursor:pointer;
+	
+	
+}
+
+#middle_hover:hover {
+	background-image:url(http://www.2ndwindexercise.com/images/middle_column_hover.png);
+}
+
+#middle_column {
+	background-image:url(http://www.2ndwindexercise.com/wp-content/uploads/2012/06/Now-Hiring-Middle.png);
+	width:350px;
+	height:313px;
+	position: relative;
+	float:left;
+	margin-right:3px;
+}
+#right_column{
+	background:url(http://www.2ndwindexercise.com/images/States_Sprite_2.png);
+	width:300px;
+	height:313px;
+	overflow:hidden;
+	position: relative; 
+	display:block;
+}
+#right_column span{
+	list-style:none;
+	display:block;
+//	position:absolute;
+//	overflow:hidden
+}
+#right_column a{
+	display:block;
+	text-decoration:none;
+}
+#state_map{
+	margin-top:255px;
+	padding:20px
+}
+.states{
+	background-image:url(http://www.2ndwindexercise.com/images/States_Sprite_2.png);
+	opacity:0;
+	-ms-filter: “alpha(opacity=0)”;
+	filter: alpha(opacity=0);
+	-khtml-opacity:0;
+	-moz-opacity:0;
+	position:absolute;
+	text-indent:-999px;
+	cursor:pointer;
+}
+.states:hover{
+	background-repeat:no-repeat;
+	opacity:1;
+	-ms-filter:“alpha(opacity=100)”;
+	filter: alpha(opacity=100);
+	-khtml-opacity:1;
+	-moz-opacity:1;
+}
+.minnesota{margin-left:108px;margin-top:19px;width:96px;height:109px;background-position:-302px 0}.illinois{margin-left:186px;margin-top:138px;width:61px;height:105px;background-position:-398px 0}.missouri{margin-left:128px;margin-top:176px;width:99px;height:87px;background-position:-398px -105px}.wisconsin{margin-left:163px;margin-top:60px;width:75px;height:83px;background-position:-302px -109px}.indiana{margin-left:237px;margin-top:148px;width:48px;height:80px;background-position:-497px 0}.south_dakota{margin-left:17px;margin-top:78px;width:103px;height:69px;background-position:-302px -192px}.nebraska{margin-left:15px;margin-top:132px;width:121px;height:62px;background-position:-405px -192px}.north_dakota{margin-left:22px;margin-top:23px;width:97px;height:61px;background-position:-405px -254px}.iowa{margin-left:115px;margin-top:123px;width:90px;height:60px;background-position:-302px -261px}
+
+
+
+
+/*
+#left_column .left_hover{width:300px;height:313px;position:absolute;cursor:pointer}#left_column .left_hover:hover{background:url(http://www.2ndwindexercise.com/images/left_column_hover.png)}#left_column{background:url(http://www.2ndwindexercise.com/images/left_column_background.png);width:300px;height:313px;margin-right:3px;float:left;	display:block;}#interest_free_financing{margin-top:15px}#interest_free_financing_baseline{position:relative;top:214px}#middle_hover{width:350px;height:313px;position:absolute;cursor:pointer}#middle_hover:hover{background-image:url(http://www.2ndwindexercise.com/images/middle_column_hover.png);cursor:pointer}#middle_column{background-image:url(http://www.2ndwindexercise.com/images/middle_column_background.png);width:350px;height:313px;float:left;margin-right:3px; display:block;}#right_column{background:url(http://www.2ndwindexercise.com/images/States_Sprite_2.png);width:300px;height:313px;overflow:hidden;position: relative; display:block;}#right_column span{list-style:none;display:block;position:absolute;overflow:hidden}#right_column a{display:block;text-decoration:none;text-indent:-999px}#state_map{margin-top:255px;padding:20px}.states{background-image:url(http://www.2ndwindexercise.com/images/States_Sprite_2.png);opacity:0;-ms-filter: “alpha(opacity=0)”;filter: alpha(opacity=0);-khtml-opacity:0;-moz-opacity:0;position:absolute;}.states:hover{background-repeat:no-repeat;opacity:1;-ms-filter:“alpha(opacity=100)”;filter: alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;}.minnesota{margin-left:108px;margin-top:19px;width:96px;height:109px;background-position:-302px 0}.illinois{margin-left:186px;margin-top:138px;width:61px;height:105px;background-position:-398px 0}.missouri{margin-left:128px;margin-top:176px;width:99px;height:87px;background-position:-398px -105px}.wisconsin{margin-left:163px;margin-top:60px;width:75px;height:83px;background-position:-302px -109px}.indiana{margin-left:237px;margin-top:148px;width:48px;height:80px;background-position:-497px 0}.south_dakota{margin-left:17px;margin-top:78px;width:103px;height:69px;background-position:-302px -192px}.nebraska{margin-left:15px;margin-top:132px;width:121px;height:62px;background-position:-405px -192px}.north_dakota{margin-left:22px;margin-top:23px;width:97px;height:61px;background-position:-405px -254px}.iowa{margin-left:115px;margin-top:123px;width:90px;height:60px;background-position:-302px -261px}
+*/

@@ -1,0 +1,157 @@
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ * template Name: Home
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
+
+get_header(); ?>
+
+<div id="wrapper">
+<div id="static_wrapper">
+  <div id="header_row1"><div id="header_row1-inner">
+       <div class="top-youtube-link" onclick="window.open('http://www.youtube.com/2ndwindexercise');"><a href="http://www.youtube.com/2ndwindexercise" target="_blank" ><em>You Tube</em></a></div>    
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2F2ndwindexercise&amp;layout=button_count&amp;show_faces=true&amp;width=20&amp;action=like&amp;colorscheme=light&amp;height=15" scrolling="no" frameborder="0" style="margin-left:238px; margin-top:7px; border:none; overflow:hidden; width:95px; height:25px;" allowTransparency="true"></iframe>
+<div class="cse-branding-form" id="search-form">
+    <form action="./" id="cse-search-box" method="get">
+       
+        <input name="s" type="text" id="search_box" style="border: #FFF;" value="Search" size="28" onclick="this.value=''" />
+   		<input id="search_button" name="sa" type="image" value="Search" src="<? bloginfo("stylesheet_directory") ?>/images/button_01.png" />
+    </form>
+  </div>    
+
+     <ul>
+		    <li><a href="/commercial/" class="com-equip"><em>Commercial Equipment</em></a></li>
+            <li><a href="/vip-offers" class="top-vip-link"><em>VIP Offers</em></a></li>
+            <li class="last-tab"><a href="/contact" class="top-contact-link"><em>Contact Us</em></a></li>
+
+          <!--<li><a href="/contact"  class="top-contact-link"><em>Contact Us</em></a></li>
+            <li><a href="/blog/" class="top-blog-link"><em>Fitness Blog</em></a></li>
+		    <li class="last-tab"><a href="/commercial/">Commercial Equipment</a></li>
+		    <li class="last-tab"><a href="/commercial/" class="com-equip"><em>Commercial Equipment</em></a></li>-->
+</ul>  
+
+<div id="store-form">
+     <form action="/locator" onsubmit="searchLocations(); return false;" name="location_search_form1" id="location_search_form1" method="post" >
+      <label for="textfield"><em>Store Locator</em></label>
+        <input name="location_search_zip" type="text" id="location_search_zip_field" value="Enter Zip Code" onclick="this.value=''" />
+        <input type="image" name="imageField" id="store_button" src="<? bloginfo("stylesheet_directory") ?>/images/button_01.png" />
+     <input type="hidden" id="location_search_distance_field" name="location_search_distance" value="500" >
+       <input type="hidden" name="location_search_tags_field" value="" checked="checked" />
+         <input type="hidden" name="location_search_categories_field" value="" checked="checked" />
+    
+  
+    <input type="hidden" id="avail_cats" value="" />
+  
+    <input type="hidden" id="avail_tags" value="" />
+    
+  
+    <input type="hidden" id="location_search_state_field" name="location_search_state"  />
+    <input type="hidden"  id="location_search_city_field" name="location_search_city" />
+     <input type="hidden" id="location_search_address_field" name="location_search_address" />
+     
+     </form>
+  </div>    
+
+<!--<a href="/shop/checkout/cart/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('cart','','<? bloginfo("stylesheet_directory") ?>/images/new-index_over_09.png',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/new-index_09.png" alt="View Cart" name="cart" border="0" id="cart" /></a>-->
+    <a href="<? bloginfo("home") ?>"><img src="<? bloginfo("stylesheet_directory") ?>/images/index_03.png" alt="2nd Wind Exercise" id="logo" /></a> </div></div>
+
+  <div id="header_row2">
+         <? include( TEMPLATEPATH . "/includes/base_product_nav.php") ?>
+ <div class="cse-branding-right" style="background-color:#FFFFFF;color:#000000">
+
+</div>
+</div>
+
+
+  <div id="content_area">
+  <div id="body_area"><?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+						<?php the_content(); ?>
+						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
+						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+				 
+
+				 
+
+<?php endwhile; ?>
+
+</div>
+  <div style="clear:both;"></div>
+  </div>
+
+
+  <div id="footer">
+    
+      <div  id="footer-logo"><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+  <tr>
+    <td width="20">&nbsp;</td> 
+    <td><a href="<? bloginfo("home")?>/life-fitness" class="footer-fitnessLogo" title="Life Fitness"></a></td> 
+    <td><a href="<? bloginfo("home")?>/pacemaster" class="footer-paceMasterLogo" title="Pace Master"></a></td> 
+    <td><a href="<? bloginfo("home")?>/octane-fitness" class="footer-octaneLogo" title="Octane"></a></td> 
+    <td><a href="<? bloginfo("home")?>/torque" class="footer-torqueLogo" title="Torque"></a></td> 
+    <td><a href="<? bloginfo("home")?>/hoist-fitness" class="footer-hoistLogo" title="Hoist"></a></td> 
+    <td><a href="<? bloginfo("home")?>/lifespan" class="footer-lifespanLogo" title="LifeSpan"></a></td> 
+  </tr> 
+  <tr>
+    <td>&nbsp;</td> 
+    <td><a href="<? bloginfo("home")?>/lemond-fitness" class="footer-lemondLogo" title="leMond"></a></td> 
+    <td><a href="<? bloginfo("home")?>/hammer-strength" class="footer-hammerLogo" title="Hammer Strength"></a></td> 
+    <td><a href="<? bloginfo("home")?>/vision-fitness" class="footer-visionLogo" title="Vision Fitness"></a></td> 
+    <td><a href="<? bloginfo("home")?>/power-plate" class="footer-powerPlateLogo" title="Power Plate"></a></td> 
+    <td><a href="<? bloginfo("home")?>/cybex" class="footer-cybexLogo" title="Cybex"></a></td> 
+    <td><a href="<? bloginfo("home")?>/power-block" class="footer-powerBlockLogo" title="Power Block"></a></td> 
+  </tr> 
+</table> 
+</div> 
+ 
+<table border="0" cellpadding="0" cellspacing="0"> 
+        <tr>
+          <td><a href="/">Home</a></td>
+          <td><a href="/about">Why 2nd Wind</a></td>
+          <td><a href="/appointment">Special Services</a></td>
+          <td><a href="/life-fitness">Brands We Carry</a></td>
+        </tr>
+        <tr>
+          <td><a href="/promotions">Promotions</a></td>
+          <td><a href="/shop">Shop Products</a></td>
+          <td><a href="/blog">Fitness Blog</a></td>
+          <td><a href="/locator">Store Locator</a></td>
+        </tr>
+        <tr>  
+          <td><a href="/contact">Contact Us</a></td>
+          <td><a href="/sitemap">Sitemap</a></td>
+          <td><a href="http://facebook.com/2ndwindexercise" target="_blank">Facebook</a></td>
+          <td><a href="/commercial">Commercial</a></td>
+        </tr>    
+      </table> 
+ 
+<div id="contact_info"> 
+&copy; 2011 <a href="http://www.2ndwindexercise.com/">2nd Wind Exercise Equipment</a> <br /> 
+7585 Equitable Dr  |  Eden Prairie, Minnesota 55344<br /> 
+952.544.5249
+<p><a href="http://www.savvyproweb.com" target="_blank">Web Design &amp; Development</a> by Savvy Pro Web</p>
+ 
+</div> 
+  </div>
+</div></div>
+<!-- <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-20056-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>-->
+
+
+
+ 
+<?php get_footer(); ?>

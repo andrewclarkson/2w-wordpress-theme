@@ -1,0 +1,43 @@
+    <ul class="ulnav">
+        	<li><a href="<? bloginfo("home")?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('button_home','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/home_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/home.jpg" alt="Home" name="button_home" width="126" height="44" border="0" id="button_home" /></a></li>
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('why-2wind','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/why-2wind_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/why-2wind.jpg" alt="Why 2ns Wind" name="why-2wind" width="126" height="44" border="0" id="why-2wind" /></a>
+		 
+            
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('spec-service','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/spec-service_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/spec-service.jpg" alt="Special Service" name="spec-service" width="126" height="44" border="0" id="spec-service" /></a>
+  			<ul>
+            <li><a href="<? bloginfo("home")?>/schedule-an-appointment">Schedule an Appointment</a></li>
+            <li><a href="<? bloginfo("home")?>/room-planner">Room Planner</a></li>
+            <li><a href="<? bloginfo("home")?>/workout-planner">Workout Planner</a></li>
+            <li><a href="<? bloginfo("home")?>/in-store-personal-training">In-store Personal Training</a></li>
+            <li><a href="<? bloginfo("home")?>/customer-phone-support">Customer Phone Support</a></li>
+            <li><a href="<? bloginfo("home")?>/equipment-care-service">Equipment Care & Service</a></li>
+            <li><a href="<? bloginfo("home")?>/extended-warranty">Extended Warranty</a></li>
+            <li><a href="<? bloginfo("home")?>/corporate-wellness-partnership">Corporate Wellness Partnership</a></li>
+            <li><a href="<? bloginfo("home")?>/buy-back-or-trade-in">Buy-back or Trade-in</a></li>
+            <li><a href="<? bloginfo("home")?>/delivery-setup">Delivery & Setup</a></li>
+            <li><a href="<? bloginfo("home")?>/moving-existing-equipment">Moving Existing Equipment</a></li>
+            <li><a href="<? bloginfo("home")?>/cool-apps">Cool Apps</a></li>
+            <li><a href="<? bloginfo("home")?>/cool-videos">Cool Videos</a></li>
+            <li><a href="<? bloginfo("home")?>/facebook-page">Facebook Page / Fitness Blog</a></li>
+      </ul></li>
+            
+
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('brands','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/brands_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/brands.jpg" alt="Brands We Carry" name="brands" width="126" height="44" border="0" id="brands" /></a>
+  	<ul>
+    	<li><a href="/accessories.htm">Accessories</a></li>
+        <li><a href="../shop/plates-dumbbells/powerblock-dumbells">PowerBlock</a></li>   	
+        <li><a href="/power_plate.html">Power Plate</a></li>
+    	<li><a href="/rowers.html">Rowers</a></li>                                
+    </ul>
+
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('promotions','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/promotions_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/promotions.jpg" alt="Promotions" name="promotions" width="126" height="44" border="0" id="promotions" /></a>
+  		 </li>
+            
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('shop','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/shop_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/shop.jpg" alt="Shop" name="shop" width="126" height="44" border="0" id="shop" /></a>
+  			<ul>
+            <li><a href="../shop/exercise-bikes/vision-exercise-bikes">Vision</a></li>
+            <li><a href="../shop/exercise-bikes/lifespan-exercise-bike">LifeSpan</a></li>
+            <li><a href="../shop/exercise-bikes/life-fitness-exercise-bikes">Life Fitness</a></li>
+      </ul></li>
+            
+    </ul>

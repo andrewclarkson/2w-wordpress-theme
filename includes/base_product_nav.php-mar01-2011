@@ -1,0 +1,45 @@
+    <ul class="ulnav">
+        	<li><a href="<? bloginfo("home")?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('button_home','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/home_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/home.jpg" alt="Home" name="button_home" width="126" height="44" border="0" id="button_home" /></a></li>
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('why-2wind','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/why-2wind_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/why-2wind.jpg" alt="Why 2ns Wind" name="why-2wind" width="126" height="44" border="0" id="why-2wind" /></a>
+			<ul>
+            <li><a href="../shop/ellipticals/life-fitness-ellipticals">Life Fitness</a></li>
+            <li><a href="../shop/ellipticals/octane-fitness-ellipticals">Octane Fitness</a></li>
+            <li><a href="../shop/ellipticals/vision-ellipticals">Vision</a></li>
+            <li><a href="../shop/ellipticals/pacemaster-elliptical">PaceMaster</a></li>
+      </ul>          </li>
+            
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('spec-service','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/spec-service_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/spec-service.jpg" alt="Special Service" name="spec-service" width="126" height="44" border="0" id="spec-service" /></a>
+  			<ul>
+            <li><a href="../shop/treadmills/life-fitness-treadmills">Life Fitness</a></li>
+            <li><a href="../shop/treadmills/vision-fitness-treadmills">Vision</a></li>
+            <li><a href="../shop/treadmills/pacemaster-treadmills">PaceMaster</a></li>
+            <li><a href="../shop/treadmills/lifespan-treadmills">LifeSpan</a></li>
+      </ul></li>
+            
+
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('brands','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/brands_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/brands.jpg" alt="Brands We Carry" name="brands" width="126" height="44" border="0" id="brands" /></a>
+  	<ul>
+    	<li><a href="/accessories.htm">Accessories</a></li>
+        <li><a href="../shop/plates-dumbbells/powerblock-dumbells">PowerBlock</a></li>   	
+        <li><a href="/power_plate.html">Power Plate</a></li>
+    	<li><a href="/rowers.html">Rowers</a></li>                                
+    </ul>
+
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('promotions','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/promotions_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/promotions.jpg" alt="Promotions" name="promotions" width="126" height="44" border="0" id="promotions" /></a>
+  			<ul>
+            <li><a href="../shop/home-gyms/torque-home-gyms">Torque</a></li>
+            <li><a href="../shop/home-gyms/hoist-home-gyms">Hoist</a></li>
+             <li><a href="../shop/home-gyms/hoist-single-stations-1">Single Stations</a></li>
+            <li><a href="../shop/home-gyms/hoist-accessories">Hoist Accessories</a></li>
+            <li><a href="../shop/plates-dumbbells/powerblock-dumbells">PowerBlock</a></li>
+            <li><a href="../shop/plates-dumbbells">Plates & Dumbbells</a></li>
+      </ul></li>
+            
+            <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('shop','','<? bloginfo("stylesheet_directory") ?>/images/top_nav/shop_f2.jpg',0)"><img src="<? bloginfo("stylesheet_directory") ?>/images/top_nav/shop.jpg" alt="Shop" name="shop" width="126" height="44" border="0" id="shop" /></a>
+  			<ul>
+            <li><a href="../shop/exercise-bikes/vision-exercise-bikes">Vision</a></li>
+            <li><a href="../shop/exercise-bikes/lifespan-exercise-bike">LifeSpan</a></li>
+            <li><a href="../shop/exercise-bikes/life-fitness-exercise-bikes">Life Fitness</a></li>
+      </ul></li>
+            
+    </ul>

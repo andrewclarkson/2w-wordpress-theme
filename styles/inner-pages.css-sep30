@@ -1,0 +1,775 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------- SUMMARY -----------------------
+		1. Headings
+		2. General Layout
+		3. Page Layout
+		4. Side Bar
+		5. Brands Page
+		6. Promotions Page
+		7. Services Page
+		8. Why 2nd Wind? Page
+		9. State Page
+		10.Contact Us Page
+		11.Power Plate Page
+		12.Strength Page
+----------------------- SUMMARY -----------------------*/
+
+body {
+	color:#FFF;
+}
+
+img{
+border:0px;
+}
+iframe{
+background:transparent;
+}
+/***************************************************************************************/
+/* 1. Headings */
+/***************************************************************************************/
+
+h1{
+	font-family:Impact, Calibri, "Trebuchet MS";
+	font-size:24px;
+	line-height:25px;
+	color:#AA7C2C;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-weight:normal;
+}
+
+h2{
+	font-family:Impact, Calibri, "Trebuchet MS";
+	font-size:24px;
+	color:#AA7C2C;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-weight:normal;
+	line-height:25px;
+}
+
+h3{
+	font-family:Impact, Calibri, "Trebuchet MS";
+	font-size:16px;
+	color:#AA7C2C;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom:0px;
+	font-weight:normal;
+}
+
+
+/***************************************************************************************/
+/* 2. General Layout */
+/***************************************************************************************/
+a:link, a:visited{
+	color:#aa7c2c;
+	text-decoration:underline;
+}
+a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+div {
+	margin:0;
+	padding:0
+}
+
+.aligncenter{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+img.alignleft {
+  float: left;
+  margin: 5px 15px 5px 0;
+  display: inline;  
+}
+img.alignright {
+  float: right;
+  margin: 9px 8px 10px 10px;
+  display: inline;  
+}
+
+ul{
+	list-style:none;
+	margin-top:0px;
+	padding:0px 0px 0px 25px;
+}
+ul li{
+	padding-bottom:4px;
+}
+sup{
+	font-size:10px;
+	vertical-align:top;
+	line-height:10px;
+}
+
+/***************************************************************************************/
+/* 3. Page Layout */
+/***************************************************************************************/
+
+#static_wrapper #content_area {
+	background:#000;
+	padding-bottom:22px;
+}
+#static_wrapper #body_area {
+	background:#000;
+	margin-left:auto;
+	margin-right:auto;
+	width:972px;
+	display:table;
+}
+#static_wrapper #body_area #body_area1 {
+	padding:30px;
+	display:table;
+}
+#static_wrapper #body_area #inner-body_area {
+	padding:34px 50px 30px 60px;
+	display:table;
+}
+
+#static_wrapper #body_area #inner-body_area #main-leftCol {
+	float:left;
+	display:table-column;
+	width:630px;
+}
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol{
+	padding:0px 40px 30px 0px;
+}
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol a:link,
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol a:visited{
+	color:#aa7c2c;
+	text-decoration:underline;
+}
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#static_wrapper #body_area #inner-body_area #main-rightCol {
+	float:left;
+	display:table-column;
+	background:#1F1F1F;
+	width:218px;
+	-webkit-border-radius:12px;
+	-khtml-border-radius:12px;
+	-moz-border-radius:12px;
+	border-radius:12px;
+	margin-top:10px;
+}
+#static_wrapper #body_area #inner-body_area #main-rightCol #sidebar{
+	padding:16px 8px 19px 16px;
+}
+#static_wrapper #body_area #inner-body_area #rightCol-noBack {
+	float:left;
+	display:table-column;
+	width:218px;
+	margin-top:10px;
+}
+#static_wrapper #body_area #inner-body_area #rightCol-noBack #noBack-sidebar{
+	padding:0px 8px 19px 16px;
+}
+#static_wrapper #body_area #inner-body_area #single-col{
+	margin-right:15px;
+}
+
+
+/***************************************************************************************/
+/* 4. Side Bar */
+/***************************************************************************************/
+#sidebar h1{
+	padding-bottom:10px;
+}
+#sidebar ul{
+	list-style:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px 0px 0px 5px;
+	font:13px Tahoma, Arial, Helvetica, sans-serif;
+	letter-spacing:-0.0em;
+}
+#sidebar ul li{
+	padding-bottom:8px;
+}
+#sidebar ul li a:link, #sidebar ul li a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+#sidebar ul li a:hover{
+	color:#D39425;
+	text-decoration:none;
+}
+
+/***************************************************************************************/
+/* 5. Brands Page */
+/***************************************************************************************/
+
+#brands{}
+#brands #brands-logo{
+	float:right;
+	width:322px;
+	text-align:right;
+}
+#brands #brands-logo img{
+	padding:28px;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+#brands #awards{
+	padding:15px 0px;
+}
+#brands #awards img{
+	padding-left: 0px;
+	padding-right:0px;
+	vertical-align:middle;
+}
+
+#brands #videos .video1-space{
+	padding-right: 38px;
+}
+
+/***************************************************************************************/
+/* 6. Promotions Page */
+/***************************************************************************************/
+
+#promotions{}
+
+#promotions #model-img{
+	text-align:center;
+	margin-bottom:12px;
+}
+
+#promotions #model-img img{
+	padding:0px 9px;
+}
+#promotions .store-form{
+	margin-top:7px;
+	margin-bottom:12px;
+}
+#promotions .store-form #go_button{
+	vertical-align:middle;
+	padding-bottom:4px;
+} 
+#promotions .store-form input[type=text]{
+	border:none;
+	background:#FFF;
+	width:120px;
+	height:18px;
+	font:bold 13px Helvetica, "Trebuchet MS", Arial, sans-serif;
+	color:#BFBFBF;
+	-webkit-border-radius:6px;
+	-khtml-border-radius:6px;
+	-moz-border-radius:6px;
+}
+/***************************************************************************************/
+/* 7. Services Page */
+/***************************************************************************************/
+
+#service1{}
+#service1 img{
+	border:0px;
+}
+#service1 .sec1{
+	display:table;
+	margin-bottom:20px;
+}
+#service1 .facebook-sec{
+	display:table;
+	margin-bottom:26px;
+}
+#service1 #training ul li{
+	background:url(../images/bullet1.png) no-repeat 0px 4px;
+	padding-left:20px;
+	padding-bottom:0px;
+}
+
+.app-3col{
+	display:table;
+	padding-bottom:40px;
+}
+.app-3col .col1-img{
+	display:table-column;
+	width:190px;
+	float:left;
+	text-align:center;
+}
+.app-3col .col2-sec{
+	display:table-column;
+	width:200px;
+	float:left;
+	font-size:14px;
+}
+.app-3col li{
+	color:#aa7c2c;
+}
+.app-3col li a{
+	color:#aa7c2c;
+	text-decoration:underline;
+}
+.app-3col li a:hover{
+	color:#00F;
+}
+
+.app-2col{
+	display:table;
+	z-index:70;
+	padding-bottom:40px;
+}
+.app-2col iframe{
+	z-index:70;
+}
+.app-2col iframe embed{
+	z-index:70;
+}
+.app-2col .col1{
+	display:table-column;
+	width:271px;
+	float:left;
+	z-index:70;
+}
+.app-2col .title-txt{
+	padding-top:8px;
+}
+.app-2col .sm-icons{
+	padding:8px 0px 12px 0px ;
+	text-align:right;
+}
+.app-2col .sm-icons img{
+	padding-left:5px;
+}
+.app-2col .col2{
+	display:table-column;
+	width:38px;
+	float:left;
+}
+ul.warranty-ul{
+	padding-left:35px;
+	padding-bottom:6px;
+}
+ul.warranty-ul li{
+	padding-bottom:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	margin-top:0px;
+}
+
+#service1 .sec1 #fbsweep-link{
+	font-size:12px;
+	margin-bottom:20px;
+}
+#service1 .sec1 #winner-img{
+	text-align:center;
+	margin-top:40px;
+}
+#service1 .sec1 #winner-img img{
+	padding-bottom:25px;
+}
+
+
+
+/************************ Image placing *************************/
+
+.serv-img-right{
+	float:right;
+	width:268px;
+	text-align:center;
+}
+.serv-img-left{
+	float:left;
+	width:270px;
+	text-align:center;
+}
+.serv-room-page img{
+	padding:10px 12px 0px 0px;
+}
+.serv-cust-phone img{
+	padding:12px 0px 0px 0px;
+}
+.serv-eqp-care img{
+	padding:10px 0px 0px 0px;
+}
+.serv-warrenty img{
+	padding:9px 0px 0px 12px;
+}
+.serv-face-book-page img{
+	padding:10px 0px 0px 3px;
+}
+.serv-personal-training img{
+	padding:10px 0px 0px 0px;
+}
+
+
+/***************************************************************************************/
+/* 8. Why 2nd Wind? Page */
+/***************************************************************************************/
+
+#why-wind{}
+#why-wind #why-wind-txt{
+	font-size:16px;
+	line-height:28px;
+	margin-bottom:30px;
+}
+#why-wind .why-wind-sec{
+	display:table;
+	margin-bottom:15px;
+}
+
+#why-wind .wind-img-right{
+	float:right;
+	width:230px;
+	text-align:right;
+	display:table-cell;
+}
+#why-wind .wind-img-left{
+	float:left;
+	width:272px;
+	text-align:center;
+	display:table-cell;
+}
+#why-wind .wind-txt-right, #why-wind .wind-txt-left{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#why-wind .store-form{
+	padding-top:11px;
+}
+
+#why-wind .store-form input[type=text] {
+	padding:1px 4px;
+	border:none;
+	background:#FFF;
+	width:96px;
+	height:18px;
+	font:bold 13px Helvetica, "Trebuchet MS", Arial, sans-serif;
+	color:#BFBFBF;
+	-webkit-border-radius:6px;
+	-khtml-border-radius:6px;
+	-moz-border-radius:6px;
+	display:block;
+	float:left;
+}
+
+#why-wind .store-form #go_button {
+	display:block;
+	padding-top:-1px;
+	padding-left:7px;
+}
+
+#why-wind #customer-care{
+	font-size:12px;
+}
+#why-wind #customer-care ul{
+	margin:-5px 0px 0px 0px;
+	padding:0px;
+}
+#why-wind #customer-care ul li{
+	margin:0px;
+	padding:0px;
+}
+#why-wind #customer-care #cc-sec1{
+	float:left;
+	width:234px;
+}
+#why-wind #customer-care #cc-sec2{
+	float:left;
+	width:328px;
+}
+#why-wind #testimonial{
+	margin-top:45px;
+}
+#why-wind #testimonial #testim-sec{
+	width:508px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+#why-wind #testimonial #testim-sec #testim-left-img{
+	background:url(../images/why-2wind_20.png) no-repeat top;
+	width:120px;
+	height:150px;
+	float:left;
+}
+#why-wind #testimonial #testim-sec #testim-right-img{
+	background:url(../images/why-2wind_22.png) no-repeat top right;
+	width:96px;
+	height:150px;
+	float:left;
+}
+#why-wind #testimonial #testim-sec #testim-frame{
+	width:282px;
+	height:148px;
+	float:left;
+	margin-top:30px;
+	padding-right:10px;
+	font-size:12px;
+	line-height:18px;
+	overflow:auto;
+}
+#why-wind #testimonial #testim-sec #next-testim{
+	width:508px;
+	display:table;
+	text-align:right;
+	padding-top:6px;
+}
+
+
+/***************************************************************************************/
+/* 9. State Page */
+/***************************************************************************************/
+
+#state-page{}
+
+#state-page .state-sec1{
+	display:table;
+	margin-bottom:0px;
+}
+#state-page .state-sec1 .state-img-left{
+	float:left;
+	width:272px;
+	text-align:center;
+	display:table-cell;
+}
+#state-page .state-sec1 .state-txt-right{
+	display:table-cell;
+	vertical-align:top;
+	padding-top:30px;
+}
+#state-page .state-sec2{
+	display:table;
+	margin-bottom:0px;
+}
+#state-page .state-sec2 .state-img-right{
+	float:right;
+	width:260px;
+	text-align:center;
+	display:table-cell;
+}
+#state-page .state-sec2 .state-txt-left{
+	display:table-cell;
+	vertical-align:top;
+	padding-top:0px;
+	float:left;
+	width:585px;
+	font-size:17px;
+	line-height:23px;
+}
+#state-page .state-sec2 .state-txt-left h1{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+/***************************************************************************************/
+/* 10.Contact Us Page */
+/***************************************************************************************/
+#contact-us{}
+
+#contact-us .contact-sec{
+	display:table;
+	margin-bottom:20px;
+	position:relative;
+}
+#contact-us .contact-sec .contact-img-left{
+	float:left;
+	width:272px;
+	text-align:right;
+	display:table-cell;
+}
+#contact-us .contact-sec .contact-txt-right{
+	display:table-cell;
+	vertical-align:top;
+	padding-top:0px;
+	width:317px;
+}
+#contact-us .contact-sec .contact-txt-right span{
+	font-size:17px;
+}
+#contact-us .contact-sec .contact-txt-right h1{
+	padding-top:0px;
+}
+#contact-us .contact-sec .contact-txt-right a.email-link:link, #contact-us .contact-sec .contact-txt-right a.email-link:visited{
+	text-align:center;
+	background:#000;
+	font:16px Calibri, Arial, "Trebuchet MS", Tahoma;
+	letter-spacing:-0.01em;
+	color:#FFF;
+	text-decoration:none;
+	padding:0px 10px 2px 10px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	border:0.15em #FFF solid;
+	position:relative;
+	top:-70px;
+	right:-230px;
+	height:21px;
+	display:block;
+	width:57px;
+}
+#contact-us .contact-sec .contact-txt-right a.email-link:hover{
+	background:#9A9B9B;
+	color:#FFF;
+	text-decoration:none;
+}
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol #contact-us a:link,
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol #contact-us a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+#static_wrapper #body_area #inner-body_area #main-leftCol #content-leftCol #contact-us a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+/***************************************************************************************/
+/* 11. Power Plate Page */
+/***************************************************************************************/
+
+#pplate{}
+
+#pplate .pplate-sec{
+	display:table;
+	margin-bottom:15px;
+}
+#pplate .pplate-img-left{
+	float:left;
+	width:226px;
+	text-align:center;
+	display:table-cell;
+}
+#pplate .pplate-txt-right{
+	display:table-cell;
+	float:left;
+	width:621px;
+}
+#pplate .pplate-txt-right span{
+	font-family:Impact, Calibri, "Trebuchet MS";
+	font-size:14px;
+	color:#AA7C2C;
+}
+#pplate .pplate-sec  a.demo-link:link, #pplate .pplate-sec  a.demo-link:visited{
+	margin-top:40px;
+	display:block;
+	text-align:center;
+	background:#1f1f1f;
+	font:28px Impact, Calibri, "Trebuchet MS";
+	color:#aa7c2c;
+	text-decoration:none;
+	padding:10px 0px 10px 0px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+#pplate .pplate-sec  a.demo-link:hover{
+	background:#171717;
+	color:#aa7c2c;
+	text-decoration:none;
+}
+
+
+/***************************************************************************************/
+/* 11. Strength Page */
+/***************************************************************************************/
+
+#stren{}
+
+#stren .stren-sec{
+	display:table;
+	margin-bottom:15px;
+}
+#stren .stren-sec .testim{
+	color:#8e8e8e;
+	font-style:italic;
+}
+#stren .stren-sec .testim span{
+	font-style:normal;
+	font-size:10px;
+	padding-left:60px;
+}
+
+#stren .stren-sec a.demo-link:link, #stren .stren-sec a.demo-link:visited{
+	margin-top:30px;
+	margin-bottom:20px;
+	display:block;
+	text-align:center;
+	background:#1f1f1f;
+	font:19px Impact, Calibri, "Trebuchet MS";
+	color:#aa7c2c;
+	text-decoration:none;
+	padding:10px 0px 13px 0px;
+	-webkit-border-radius:8px;
+	-khtml-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+#stren .stren-sec a.demo-link:hover{
+	background:#171717;
+	color:#aa7c2c;
+	text-decoration:none;
+}
+#stren .stren-sec a span{
+	font:14px Tahoma, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	line-height:30px;
+}
+#stren .stren-sec a span.s-txt{
+	font:10px Tahoma, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+
+}
+#stren .stren-sec .stren-img{
+	text-align:center;
+}
+#stren .stren-sec .stren-img img{
+	padding:0px 7px;
+}
+	#recaptcha_widget_div
+	{
+	padding-bottom:10px;
+	}
+
+a img {border: none; }
+
+/* =RedeemBar Script
+-------------------------------------------------------------- */
+
+element.style {
+top:0;
+}
+#redeembar {
+background:none repeat scroll 0 0 #da1c1e;
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:normal;
+height:42px;
+line-height:43px;
+margin:0;
+overflow:visible;
+padding:0;
+position:relative;
+text-align:center;
+width:100%;
+z-index:1000;
+}
+#redeembar a {
+color:#ffffff;
+text-decoration:underline;
+}
+#redeembar a:hover {
+color:#ffffff;
+text-decoration:none;
+}

@@ -1,0 +1,290 @@
+/* =Menu
+
+/*	---------------------------------  main nav  ---------------------------------  */
+
+
+#access {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 755px;
+	text-decoration:none;
+}
+
+#menu-mainmenu {
+	list-style:none; 
+	height:23px; 
+	position:relative; 
+	z-index:500; 
+	font:0.9em Tahoma, Arial, sans-serif;
+	letter-spacing:0px;
+	margin-top:25px;
+	float:right;
+}
+
+#menu-mainmenu li{
+	width:126px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	display:block;
+	background:url(../images/top_nav/but-back.jpg) no-repeat left top;
+	padding:0px;
+} 
+#menu-mainmenu li a{
+	display:block;
+	line-height:44px;
+	text-align:center;
+	text-decoration:none;
+	padding:0px;
+	text-decoration:none;
+} 
+
+#menu-mainmenu li:hover, #menu-mainmenu li.current-page-item, #menu-mainmenu li.current_page_item:hover, #menu-mainmenu li.current_page_item a { 
+	background:url(../images/top_nav/but-back.jpg) no-repeat left -44px;
+	text-decoration:none;
+}
+
+#menu-mainmenu li.current_page_item a:hover {
+	color:#fff; 
+	text-decoration:none;
+}
+
+#access ul ul li a{
+	 
+	text-align:left;
+	 
+} 
+
+
+/*
+#access ul ul {
+	display:none;
+	position: absolute;
+	top: 22px;
+	z-index: 99999;
+	margin-left:0px;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+
+
+
+#access ul li#menu-item-132 ul, 
+#access ul li#menu-item-142 ul, 
+#access ul li#menu-item-571 ul, 
+#access ul li#menu-item-131 ul, 
+#access ul li#menu-item-146 ul 
+{
+	left: 1px;
+	top:43px;
+	text-decoration:none;
+}
+
+#access ul li#menu-item-132 ul.sub-menu,
+#access ul li#menu-item-142 ul.sub-menu,
+#access ul li#menu-item-571 ul.sub-menu,
+#access ul li#menu-item-131 ul.sub-menu,
+#access ul li#menu-item-146 ul.sub-menu
+{ 
+	background-color:#ADADAD;
+	padding:1px;
+	position:absolute;
+	width:200px;
+}
+
+#access ul li#menu-item-132 ul.sub-menu li,
+#access ul li#menu-item-142 ul.sub-menu li,
+#access ul li#menu-item-571 ul.sub-menu li,
+#access ul li#menu-item-131 ul.sub-menu li,
+#access ul li#menu-item-146 ul.sub-menu li
+{ 
+	margin-top:1px;
+	background:#272324;
+	background-image:none;
+	height:25px;
+	width:200px;
+}
+
+#access ul li#menu-item-132 ul.sub-menu li a,
+#access ul li#menu-item-142 ul.sub-menu li a,
+#access ul li#menu-item-571 ul.sub-menu li a,
+#access ul li#menu-item-131 ul.sub-menu li a,
+#access ul li#menu-item-146 ul.sub-menu li a
+ { 
+	margin-top:1px;
+	background:none;
+	text-align:left;
+	line-height:25px;
+	font:0.95em Tahoma, Arial, Helvetica, sans-serif;
+	width:200px;
+	padding:3px 0px 0px 8px;
+}
+
+#access ul li#menu-item-132 ul.sub-menu li:hover,
+#access ul li#menu-item-142 ul.sub-menu li:hover,
+#access ul li#menu-item-571 ul.sub-menu li:hover,
+#access ul li#menu-item-131 ul.sub-menu li:hover,
+#access ul li#menu-item-146 ul.sub-menu li:hover
+{ 
+	background:#CF0304;
+	text-decoration:none;
+}
+
+#access ul li#menu-item-132 ul.sub-menu li a:hover,
+#access ul li#menu-item-142 ul.sub-menu li a:hover,
+#access ul li#menu-item-571 ul.sub-menu li a:hover,
+#access ul li#menu-item-131 ul.sub-menu li a:hover,
+#access ul li#menu-item-146 ul.sub-menu li a:hover
+{ 
+	text-decoration:none;
+}
+*/
+
+
+ 
+
+/* =Menu
+-------------------------------------------------------------- */
+/*
+#access {
+	background: #000;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 940px;
+}
+*/
+#access .menu-header,
+div.menu {
+	font-size: 13px;
+	margin-left: 12px;
+	width: 928px;
+}
+#access .menu-header ul,
+div.menu ul {
+	list-style: none;
+	margin: 0;
+}
+#access .menu-header li,
+div.menu li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #aaa;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#access ul ul {
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	float: left;
+	width: 180px;
+	z-index: 99999;
+	font-weight:normal;
+	text-transform:lowercase;
+	text-align:left;
+}
+
+
+#access ul ul li {
+	min-width: 180px;
+	height:26px;
+	font-size:11px;
+	font-weight:normal;
+	left:-224px;
+	top: 42px;
+	text-align:left;
+	float:left;
+	border: 1px solid #fff;
+	
+}
+
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #333;
+	padding: 3px 10px 3px 10px;
+	line-height: 20px;
+	font-size:11px;
+	font-weight:normal;
+	/*width: 160px;
+	height: auto;
+	*/
+}
+#access li:hover > a,
+{
+/*	background: #333;*/
+	background:url(../images/top_nav/but-back.jpg) no-repeat left -44px;
+	color: #fff;
+}
+
+#access ul ul :hover > a {
+	background: #D21C1B;
+	color: #fff;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+	color: #fff;
+}
+* html #access ul li.current_page_item a,
+* html #access ul li.current-menu-ancestor a,
+* html #access ul li.current-menu-item a,
+* html #access ul li.current-menu-parent a,
+* html #access ul li a:hover {
+	color: #fff;
+}
+
+.form-allowed-tags
+{
+	display:none;
+}
+#main-leftCol p a, .entry-meta a, .entry-utility a, a.more-link, .navigation a
+{
+	color:#fff;
+	text-decoration:underline;
+	
+}
+
+#main-leftCol p a:hover, .entry-meta a:hover, .entry-utility a:hover, a.more-link:hover, .navigation a:hover
+{
+color: #D39425;
+	text-decoration:underline;
+	
+}
+/*
+#commentform p  
+{
+width: 800px;
+}
+*/
+#commentform p label[for=author],#commentform p label[for=email]
+{
+	display:block;
+width: 60px;
+float:left;
+}
+#commentform p label[for=url],#commentform p label[for=comment]
+{
+	display:block;
+width: 68px;
+float:left;
+}

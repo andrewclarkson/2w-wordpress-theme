@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+#static_wrapper #footer {
+	padding-top:5px;
+	font:9px Arial, Helvetica, sans-serif;
+	text-transform:capitalize;
+	clear:both;
+}
+#static_wrapper #footer #footer-logo{
+	float:left;
+	width:400px;
+}
+#static_wrapper #footer #footer-logo table{
+	float:none;
+	width:400px;
+}
+#static_wrapper #footer #footer-logo table td{
+	padding:5px 3px;
+	text-align:center;
+	vertical-align:middle;
+}
+#static_wrapper #footer #footer-logo a{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#static_wrapper #footer #footer-logo a.footer-fitnessLogo{
+	width:72px;
+	height:13px;
+	background:url(../images/footer_46.png) no-repeat -5px -6px;
+}
+#static_wrapper #footer #footer-logo a.footer-fitnessLogo:hover{
+	background-position:-5px -67px;
+}
+#static_wrapper #footer #footer-logo a.footer-paceMasterLogo{
+	width:72px;
+	height:12px;
+	background:url(../images/footer_46.png) no-repeat -86px -6px;
+}
+#static_wrapper #footer #footer-logo a.footer-paceMasterLogo:hover{
+	background-position:-86px -67px;
+}
+
+#static_wrapper #footer #footer-logo a.footer-octaneLogo{
+	width:72px;
+	height:11px;
+	background:url(../images/footer_46.png) no-repeat -170px -8px;
+}
+#static_wrapper #footer #footer-logo a.footer-octaneLogo:hover{
+	background-position:-170px -69px;
+}
+#static_wrapper #footer #footer-logo a.footer-torqueLogo{
+	width:65px;
+	height:19px;
+	background:url(../images/footer_46.png) no-repeat -262px -3px;
+}
+#static_wrapper #footer #footer-logo a.footer-torqueLogo:hover{
+	background-position:-262px -64px;
+}
+#static_wrapper #footer #footer-logo a.footer-hoistLogo{
+	width:68px;
+	height:19px;
+	background:url(../images/footer_46.png) no-repeat -347px -4px;
+}
+#static_wrapper #footer #footer-logo a.footer-hoistLogo:hover{
+	background-position:-347px -65px;
+}
+#static_wrapper #footer #footer-logo a.footer-lifespanLogo{
+	width:53px;
+	height:26px;
+	background:url(../images/footer_46.png) no-repeat -429px 0px;
+}
+#static_wrapper #footer #footer-logo a.footer-lifespanLogo:hover{
+	background-position:-429px -61px;
+}
+
+#static_wrapper #footer #footer-logo a.footer-lemondLogo{
+	width:88px;
+	height:17px;
+	background:url(../images/footer_46.png) no-repeat -0px -27px;
+}
+#static_wrapper #footer #footer-logo a.footer-lemondLogo:hover{
+	background-position:-0px -88px;
+}
+#static_wrapper #footer #footer-logo a.footer-hammerLogo{
+	width:48px;
+	height:20px;
+	background:url(../images/footer_46.png) no-repeat -95px -27px;
+}
+#static_wrapper #footer #footer-logo a.footer-hammerLogo:hover{
+	background-position:-95px -88px;
+}
+
+#static_wrapper #footer #footer-logo a.footer-visionLogo{
+	width:72px;
+	height:13px;
+	background:url(../images/footer_46.png) no-repeat -169px -30px;
+}
+#static_wrapper #footer #footer-logo a.footer-visionLogo:hover{
+	background-position:-169px -91px;
+}
+#static_wrapper #footer #footer-logo a.footer-powerPlateLogo{
+	width:78px;
+	height:24px;
+	background:url(../images/footer_46.png) no-repeat -254px -30px;
+}
+#static_wrapper #footer #footer-logo a.footer-powerPlateLogo:hover{
+	background-position:-254px -91px;
+}
+#static_wrapper #footer #footer-logo a.footer-cybexLogo{
+	width:76px;
+	height:16px;
+	background:url(../images/footer_46.png) no-repeat -340px -32px;
+}
+#static_wrapper #footer #footer-logo a.footer-cybexLogo:hover{
+	background-position:-340px -93px;
+}
+#static_wrapper #footer #footer-logo a.footer-powerBlockLogo{
+	width:74px;
+	height:14px;
+	background:url(../images/footer_46.png) no-repeat -424px -35px;
+}
+#static_wrapper #footer #footer-logo a.footer-powerBlockLogo:hover{
+	background-position:-424px -96px;
+}
+
+
+
+#static_wrapper #footer table {
+	float:right;
+	margin:0;
+	padding:0;
+	margin-right:20px;
+}
+#static_wrapper #footer td {
+	padding:5px 15px;
+}
+#static_wrapper #footer a {
+	color:#7E7E7E;
+	text-decoration:none;
+}
+#static_wrapper #footer a:hover {
+	color:#FFF;
+	text-decoration: underline;
+}
+#static_wrapper #footer #contact_info {
+	font:9px Arial, Helvetica, sans-serif;
+	color:#7F7F7F;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	width:250px;
+}
+
+#static_wrapper #footer h3 {
+	margin-bottom:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color:#7E7E7E;
+	text-decoration:none;
+}

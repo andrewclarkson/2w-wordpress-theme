@@ -1,0 +1,16 @@
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2F2ndwindexercise&amp;layout=button_count&amp;show_faces=true&amp;width=20&amp;action=like&amp;colorscheme=light&amp;height=15" scrolling="no" frameborder="0" style="margin-left:360px; margin-top:9px; border:none; overflow:hidden; width:95px; height:25px;" allowTransparency="true"></iframe>
+<div class="cse-branding-form" id="search-form">
+    <form action="http://www.2ndwindexercise.com/search.htm" id="cse-search-box">
+        <input type="hidden" name="cx" value="012077268237947716655:pbsni9r3n7w" />
+        <input type="hidden" name="cof" value="FORID:11" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input name="q" type="text" id="search_box" style="border: #FFF;" value="Search" size="28" onclick="this.value=''" />
+   		<input id="search_button" name="sa" type="image" value="Search" src="<? bloginfo("stylesheet_directory") ?>/images/button_01.png" />
+    </form>
+  </div>    
+
+     <ul>
+		    <li><a href="/contact_us.html" class="top-contact-link"><em>Contact Us</em></a></li>
+			<li><a href="/blog/" class="top-blog-link"><em>Fitness Blog</em></a></li>
+			<li class="last-tab"><a href="/commercial/" class="com-equip"><em>Commercial Equipment</em></a></li>
+</ul>  
