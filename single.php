@@ -11,7 +11,7 @@ get_header(); ?>
 
 
 
- <!-------------- Left Column Started -------------->
+ <!-------------- Left Column Star-------------->
    	    <div id="main-leftCol">
         
          	<div id="content-leftCol">
@@ -29,7 +29,7 @@ get_header(); ?>
 					<h1 class="entry-title"><?php the_title(); ?></h1>
 
 					<div class="entry-meta">
-						<?php twentyten_posted_on(); ?>
+						<?php second_wind_posted_on(); ?>
 					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
