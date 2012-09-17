@@ -26,7 +26,12 @@ function second_wind_init() {
 }
 endif;
 
+add_action('admin_init', 'second_wind_meta_data');
 
+function second_wind_meta_data() {
+
+	//add_meta_box($id, $title, $callback, $screen = null, $context = 'advanced', $priority = 'default', $callback_args = null);
+}
 
 
 /**

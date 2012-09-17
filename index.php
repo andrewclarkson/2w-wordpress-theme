@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 
- <!-------------- Left Column Sarted -------------->
+ <!-------------- Left Column Started -------------->
    	    <div id="main-leftCol">
         
          	<div id="content-leftCol">
