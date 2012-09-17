@@ -1,0 +1,89 @@
+//TODO: Use Modernizr Classes
+
+.menu-header {
+	margin: 10px 0px;
+	height: 40px;
+	font-size:13px;
+	@include gradient-vertical-edge (#222, #555, #000);
+	border: 1px solid #333;
+	ul {
+		list-style:none;
+		margin:0;
+		position:relative;
+		z-index:5;
+		li {
+			//@include text-overflow();
+			float: left;
+			position:relative;
+			overflow:show;
+			width: 16.667%;
+			text-align: center;
+			a {
+				font-size:1.1em;
+				display: block;
+				line-height:40px;
+				color: $white;
+        		text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.7);
+				span.caret {
+					margin-top:18px;
+					margin-left:3px;
+				}
+				&:hover {
+					text-decoration:none;
+					color:$white;
+				}
+
+			}
+			ul {
+				list-style:none;
+				position:absolute;
+				left:-9999px;
+				z-index:100;
+				width: 195px;
+				background-color: #222;
+				border: 1px solid #333;
+				li {
+					display:block;
+					border-bottom: 1px solid #333;
+					float: none;
+					width:100%;
+					text-align:left;
+					&:hover {
+						background:#333;
+					}
+					a {
+						line-height:30px;
+						padding-left:5px;
+						font-size:12px;
+					}
+				}
+				
+			}
+			&:hover {
+				box-shadow: inset 0px 0px 30px rgba(0,0,0,.3);
+				@include gradient-vertical-edge (#222, #333, #000);
+				ul {
+					left:0;
+					li {
+						a {
+							span.caret {
+								border-bottom: 4px solid $white;
+								border-top: 0px !important;
+							}
+						}
+					}
+				}
+			}
+			&:active {
+				@include gradient-vertical-edge (#ab0912, #d01722, #870f10);
+			}
+			&.last {
+			border-right: 0px;
+			ul {
+				margin-left:-39px;
+			}
+			}
+		}
+		
+	}
+}
